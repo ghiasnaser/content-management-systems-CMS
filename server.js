@@ -47,20 +47,16 @@ function startPrompt(){
                 break;
             case 'Add a Department':
                 await departments.addDerpartment();
-                //startPrompt();
                 break;
             case 'Add a Role':
                 await roles.addRole();
-                //startPrompt();
                 break;
             case 'Update an Employee Role':
                 await employees.updateEmployeeRole();
-                //startPrompt();
                 break;
         }
     });
 }
 startPrompt();
-module.exports = {startPrompt};
 
 
